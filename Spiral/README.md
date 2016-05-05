@@ -31,7 +31,7 @@ Ejercicios para TokyoTech
 
 ## Opcion 2
 
-+ Despues de elegir la opcion numero 2 el ejercicio nos solicitara ingresar las coordenadas correspondientes al eje x y eje y para poder calcular el punto en el que estas se encuentran:
++ Despues de elegir la opcion numero 2 el ejercicio nos solicitara ingresar las coordenadas correspondientes al eje X y eje Y para poder calcular el punto en el que estas se encuentran:
 		
 		$ Ingresa la coordenada x
 		$ -2
