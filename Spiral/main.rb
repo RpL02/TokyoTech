@@ -5,12 +5,12 @@ class Main
 	$count = 0
 	def send_to_generate_spiral(n,value)
 		Spiral.new.generate_spiral(n,n,value) do |x,y,n|
-	      if n == $count
-	         puts "Las coordenadas correspondientes al punto numero #{n} son (#{x},#{y})"
-	      elsif n == "(#{x},#{y})"
-	         puts "El punto correspondiente a tus coordenadas (#{x},#{y}) es #{$count}"
-	      end
-	      $count+=1
+		      if n == $count
+		         puts "Las coordenadas correspondientes al punto numero #{n} son (#{x},#{y})"
+		      elsif n == "(#{x},#{y})"
+		         puts "El punto correspondiente a tus coordenadas (#{x},#{y}) es #{$count}"
+		      end
+		      $count+=1
 	   	end   		
 	end	
 end
